@@ -4,16 +4,20 @@
 
 ## Установка зависимостей
 
-pip install requests pandas matplotlib
+`pip install requests pandas matplotlib`
 
 ## API
 
 Windows PowerShell:
+
 `$env:VT_API_KEY="ваш_ключ"`
+
 `python .\main.py`
 
 Linux / macOS:
+
 `export VT_API_KEY="ваш_ключ"`
+
 `python3 main.py`
 
 ## Используемые источники данных
@@ -38,9 +42,8 @@ Linux / macOS:
 .
 ├── main.py
 ├── alerts-only.json
-├── .env.example
-├── .gitignore
 ├── README.md
 ├── threat_report.csv         # создаётся после запуска
 └── threat_chart.png          # создаётся после запуска
+
 
